@@ -67,7 +67,6 @@ Selected Publications
 For a complete list, visit [Google Scholar](https://scholar.google.com/citations?user=aAP3asAAAAAJ&hl=en&view_op=list_works)  
 * A. Mamaghani, Q. Zheng, U. Ghosh, V. Rajagopalan, S. Shakkottai, & D. Bharadia, "Log Pruning for Efficient Q&A in 5G Networks", 2025, ACM Open-AI RAN Workshop, ACM MobiCom 2025, Hong Kong.
 * A. Mamaghani, U. Ghosh, I. K. Jain, S. Shakkottai, & D. Bharadia, "Tiny-Twin: A CPU-Native Full-stack Digital Twin for NextG Cellular Networks", 2026, IEEE DySPAN.
-* W. H. Ko, U. Ghosh, U. Dinesha, R. Wu, S. Shakkottai, & D. Bharadia, "EdgeRIC: Empowering Realtime Intelligent Optimization and Control in NextG Networks", 2024, USENIX NSDI.
 
 
 
@@ -96,12 +95,3 @@ Scholarships
 * Direct admission for MSc from Sharif University of Technology, Feb. 2022  
 * Silver Medal in the 31st National Physics Olympiad, 2017  
 * Silver Medal in Iran's National IMC, 2013  
-
-Service and leadership
-============
-* Board Member, Women in ECE (WeCE), UCSD, 2025-2026  
-* Artifact Evaluation Committee, ACM SIGCOMM '25  
-* Artifact Evaluation Committee, USENIX NSDI '25  
-* Artifact Evaluation Committee, ACM CoNEXT '25  
-* Artifact Evaluation Committee, ACM CoNEXT '24  
-* Board Member, ECE Graduate Student Council (ECE GSC), UCSD  
