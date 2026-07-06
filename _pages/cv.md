@@ -100,15 +100,6 @@ Scholarships
 * Silver Medal in the 31st National Physics Olympiad, 2017  
 * Silver Medal in Iran's National IMC, 2013  
 
-Teaching Experience
-============
-* Teaching Assistant, Probability and Statistics (Prof. Ashtiani), Fall 2023  
-* Teaching Assistant, Data Networks (Prof. Pakravan), Fall 2022 & Spring 2022  
-* Teaching Assistant, Random Processes (Prof. Behnia), Spring 2022  
-* Teaching Assistant, Discrete-time Signal Processing (Prof. Shamsollahi), Fall 2021  
-* Teaching Assistant, Circuits Theory (Prof. Shamsollahi), Fall 2020  
-* Teaching Assistant, Electromagnetics (Prof. Memarian), Spring 2020  
-
 Service and leadership
 ============
 * Board Member, Women in ECE (WeCE), UCSD, 2025-2026  
