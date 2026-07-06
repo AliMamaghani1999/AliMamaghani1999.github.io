@@ -1,1 +1,600 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Personal website for Ali Mamaghani" />
+	<title>Ali Mamaghani</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--bg: #f4efe8;
+			--bg-elevated: rgba(255, 251, 247, 0.84);
+			--text: #132238;
+			--muted: #546174;
+			--line: rgba(19, 34, 56, 0.12);
+			--accent: #d85c38;
+			--accent-2: #184e77;
+			--shadow: 0 24px 60px rgba(19, 34, 56, 0.12);
+			--radius: 26px;
+			--max: 1120px;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
+
+		body {
+			margin: 0;
+			font-family: "Inter", sans-serif;
+			color: var(--text);
+			background:
+				radial-gradient(circle at top left, rgba(216, 92, 56, 0.15), transparent 28%),
+				radial-gradient(circle at top right, rgba(24, 78, 119, 0.16), transparent 26%),
+				linear-gradient(180deg, #f7f1ea 0%, #efe8df 100%);
+			min-height: 100vh;
+		}
+
+		body::before {
+			content: "";
+			position: fixed;
+			inset: 0;
+			pointer-events: none;
+			background-image: linear-gradient(rgba(19, 34, 56, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(19, 34, 56, 0.03) 1px, transparent 1px);
+			background-size: 48px 48px;
+			mask-image: radial-gradient(circle at center, black 45%, transparent 100%);
+			opacity: 0.5;
+		}
+
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		.site {
+			width: min(var(--max), calc(100% - 32px));
+			margin: 0 auto;
+			position: relative;
+			z-index: 1;
+		}
+
+		.topbar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 22px 0 10px;
+			position: sticky;
+			top: 0;
+			backdrop-filter: blur(16px);
+			background: linear-gradient(180deg, rgba(244, 239, 232, 0.94), rgba(244, 239, 232, 0.72));
+			z-index: 10;
+		}
+
+		.brand {
+			display: flex;
+			align-items: center;
+			gap: 12px;
+			font-weight: 800;
+			letter-spacing: -0.03em;
+		}
+
+		.brand-mark {
+			width: 42px;
+			height: 42px;
+			border-radius: 14px;
+			display: grid;
+			place-items: center;
+			color: white;
+			background: linear-gradient(135deg, var(--accent), #f08a5d);
+			box-shadow: var(--shadow);
+		}
+
+		nav {
+			display: flex;
+			gap: 18px;
+			flex-wrap: wrap;
+			justify-content: flex-end;
+		}
+
+		nav a {
+			color: var(--muted);
+			font-size: 0.95rem;
+			font-weight: 600;
+		}
+
+		nav a:hover {
+			color: var(--text);
+		}
+
+		.hero {
+			display: grid;
+			grid-template-columns: 1.25fr 0.85fr;
+			gap: 28px;
+			align-items: stretch;
+			padding: 36px 0 24px;
+		}
+
+		.hero-card,
+		.panel {
+			background: var(--bg-elevated);
+			border: 1px solid rgba(255, 255, 255, 0.65);
+			box-shadow: var(--shadow);
+			border-radius: var(--radius);
+			backdrop-filter: blur(18px);
+		}
+
+		.hero-card {
+			padding: 40px;
+			position: relative;
+			overflow: hidden;
+		}
+
+		.hero-card::after {
+			content: "";
+			position: absolute;
+			width: 360px;
+			height: 360px;
+			border-radius: 50%;
+			right: -120px;
+			top: -170px;
+			background: radial-gradient(circle, rgba(216, 92, 56, 0.18), transparent 60%);
+		}
+
+		.eyebrow {
+			display: inline-flex;
+			align-items: center;
+			gap: 8px;
+			padding: 8px 14px;
+			border-radius: 999px;
+			background: rgba(24, 78, 119, 0.08);
+			color: var(--accent-2);
+			font-size: 0.85rem;
+			font-weight: 700;
+			margin-bottom: 18px;
+		}
+
+		h1, h2, h3 {
+			margin: 0;
+			letter-spacing: -0.04em;
+		}
+
+		h1 {
+			font-family: "Fraunces", serif;
+			font-size: clamp(3rem, 6vw, 5.4rem);
+			line-height: 0.95;
+			max-width: 10ch;
+		}
+
+		.lede {
+			margin: 18px 0 0;
+			max-width: 60ch;
+			color: var(--muted);
+			font-size: 1.05rem;
+			line-height: 1.75;
+		}
+
+		.actions {
+			display: flex;
+			gap: 14px;
+			flex-wrap: wrap;
+			margin-top: 28px;
+		}
+
+		.button {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			padding: 14px 20px;
+			border-radius: 999px;
+			font-weight: 700;
+			border: 1px solid transparent;
+			transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+		}
+
+		.button:hover {
+			transform: translateY(-2px);
+		}
+
+		.button.primary {
+			background: var(--text);
+			color: #fff;
+			box-shadow: 0 18px 36px rgba(19, 34, 56, 0.2);
+		}
+
+		.button.secondary {
+			background: rgba(255, 255, 255, 0.7);
+			color: var(--text);
+			border-color: var(--line);
+		}
+
+		.sidebar {
+			display: grid;
+			gap: 18px;
+		}
+
+		.portrait {
+			min-height: 320px;
+			padding: 26px;
+			display: grid;
+			align-content: space-between;
+			background:
+				linear-gradient(160deg, rgba(24, 78, 119, 0.88), rgba(19, 34, 56, 0.92)),
+				linear-gradient(135deg, rgba(216, 92, 56, 0.65), rgba(24, 78, 119, 0.35));
+			color: white;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.portrait::before {
+			content: "";
+			position: absolute;
+			inset: auto -10% -30% auto;
+			width: 260px;
+			height: 260px;
+			background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent 62%);
+			border-radius: 50%;
+		}
+
+		.portrait .initials {
+			width: 92px;
+			height: 92px;
+			border-radius: 24px;
+			display: grid;
+			place-items: center;
+			font-family: "Fraunces", serif;
+			font-size: 2.4rem;
+			background: rgba(255, 255, 255, 0.14);
+			border: 1px solid rgba(255, 255, 255, 0.2);
+			backdrop-filter: blur(8px);
+		}
+
+		.portrait p,
+		.stat p,
+		.section p,
+		.section li,
+		.footer-note {
+			color: rgba(255, 255, 255, 0.88);
+		}
+
+		.portrait h2 {
+			font-family: "Fraunces", serif;
+			font-size: 2.2rem;
+			line-height: 1;
+			margin-top: 18px;
+		}
+
+		.meta {
+			display: grid;
+			gap: 12px;
+		}
+
+		.meta-item {
+			padding: 18px 20px;
+			border-radius: 22px;
+			background: rgba(255, 255, 255, 0.68);
+			border: 1px solid rgba(255, 255, 255, 0.68);
+		}
+
+		.meta-item .label {
+			display: block;
+			color: var(--muted);
+			font-size: 0.82rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 0.14em;
+			margin-bottom: 8px;
+		}
+
+		.meta-item .value {
+			font-weight: 700;
+			color: var(--text);
+			line-height: 1.5;
+		}
+
+		.sections {
+			display: grid;
+			gap: 22px;
+			padding-bottom: 42px;
+		}
+
+		.section {
+			padding: 30px 32px;
+		}
+
+		.section h2 {
+			font-family: "Fraunces", serif;
+			font-size: clamp(1.8rem, 3vw, 2.6rem);
+			margin-bottom: 10px;
+		}
+
+		.section p,
+		.section li {
+			color: var(--muted);
+			line-height: 1.75;
+		}
+
+		.grid-2 {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 18px;
+			margin-top: 20px;
+		}
+
+		.card {
+			border: 1px solid var(--line);
+			border-radius: 22px;
+			padding: 22px;
+			background: rgba(255, 255, 255, 0.72);
+		}
+
+		.card h3 {
+			font-size: 1.05rem;
+			margin-bottom: 8px;
+		}
+
+		.tag-row {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 10px;
+			margin-top: 16px;
+		}
+
+		.tag {
+			padding: 8px 12px;
+			border-radius: 999px;
+			background: rgba(19, 34, 56, 0.06);
+			color: var(--text);
+			font-size: 0.9rem;
+			font-weight: 600;
+		}
+
+		.timeline {
+			display: grid;
+			gap: 14px;
+			margin-top: 18px;
+		}
+
+		.timeline-item {
+			display: grid;
+			grid-template-columns: 140px 1fr;
+			gap: 18px;
+			padding: 18px 20px;
+			border-radius: 18px;
+			background: rgba(255, 255, 255, 0.66);
+			border: 1px solid var(--line);
+		}
+
+		.timeline-item strong {
+			color: var(--text);
+		}
+
+		.timeline-item span {
+			color: var(--muted);
+			line-height: 1.6;
+		}
+
+		.contact-row {
+			display: flex;
+			gap: 14px;
+			flex-wrap: wrap;
+			margin-top: 18px;
+		}
+
+		.footer {
+			padding: 10px 0 34px;
+			color: var(--muted);
+			font-size: 0.95rem;
+		}
+
+		@media (max-width: 900px) {
+			.hero,
+			.grid-2 {
+				grid-template-columns: 1fr;
+			}
+
+			.topbar {
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 14px;
+			}
+
+			nav {
+				justify-content: flex-start;
+			}
+
+			.timeline-item {
+				grid-template-columns: 1fr;
+				gap: 8px;
+			}
+
+			.hero-card,
+			.section {
+				padding: 26px;
+			}
+		}
+
+		@media (max-width: 640px) {
+			.site {
+				width: min(var(--max), calc(100% - 20px));
+			}
+
+			.hero-card {
+				padding: 22px;
+			}
+
+			h1 {
+				max-width: 12ch;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="site">
+		<header class="topbar">
+			<a class="brand" href="#home" aria-label="Go to home">
+				<span class="brand-mark">AM</span>
+				<span>Ali Mamaghani</span>
+			</a>
+			<nav aria-label="Primary">
+				<a href="#about">About</a>
+				<a href="#work">Work</a>
+				<a href="#talks">Talks</a>
+				<a href="#contact">Contact</a>
+			</nav>
+		</header>
+
+		<main id="home">
+			<section class="hero">
+				<article class="hero-card">
+					<div class="eyebrow">Personal website</div>
+					<h1>Ali Mamaghani</h1>
+					<p class="lede">
+						Ph.D. student in Electrical and Computer Engineering at UC San Diego, working across communication networks, machine learning, and optimization for nextG systems.
+					</p>
+					<div class="actions">
+						<a class="button primary" href="#contact">Get in touch</a>
+						<a class="button secondary" href="MamaghaniAli.pdf" target="_blank" rel="noreferrer">Download CV</a>
+						<a class="button secondary" href="#work">See selected work</a>
+					</div>
+				</article>
+
+				<aside class="sidebar">
+					<section class="panel portrait" aria-label="Profile summary">
+						<div class="initials">AM</div>
+						<div>
+							<h2>Ph.D. student focused on wireless systems</h2>
+							<p>Based in San Diego. Researching telecom log analysis, AI for 5G, and low-latency network intelligence.</p>
+						</div>
+					</section>
+
+					<section class="panel meta" aria-label="Quick facts">
+						<div class="meta-item">
+							<span class="label">Focus</span>
+							<div class="value">Communication networks, machine learning, optimization, SDN/NFV, and AR/VR</div>
+						</div>
+						<div class="meta-item">
+							<span class="label">Currently</span>
+							<div class="value">Building PRISM, EdgeRIC, and related tools for explainable 5G network analysis</div>
+						</div>
+					</section>
+				</aside>
+			</section>
+
+			<div class="sections">
+				<section class="panel section" id="about">
+					<h2>About</h2>
+					<p>
+						This homepage uses a profile-first structure, but fills it with your actual CV content so visitors see your research direction, education, and selected work immediately.
+						The goal is a compact academic homepage that still feels modern and easy to scan.
+					</p>
+					<div class="grid-2">
+						<div class="card">
+							<h3>Education</h3>
+							<p>Ph.D. in Electrical and Computer Engineering at UC San Diego. Prior training in Electrical Engineering and Communication Systems at Sharif University of Technology.</p>
+						</div>
+						<div class="card">
+							<h3>Research interests</h3>
+							<p>Communication networks, machine learning, optimization, reinforcement learning, information theory, SDN/NFV, queuing theory, game theory, and AR/VR.</p>
+						</div>
+					</div>
+					<div class="tag-row" aria-label="Topics">
+						<span class="tag">AI</span>
+						<span class="tag">Networking</span>
+						<span class="tag">Systems</span>
+						<span class="tag">Research</span>
+						<span class="tag">Web</span>
+					</div>
+				</section>
+
+				<section class="panel section" id="work">
+					<h2>Research Experience</h2>
+					<div class="timeline">
+						<div class="timeline-item">
+							<strong>Question Answering over Telecom Log Systems</strong>
+							<span>PRISM: a two-stage framework for causal-semantic log pruning and LLM-based reasoning for interpretable 5G system analysis.</span>
+						</div>
+						<div class="timeline-item">
+							<strong>Edgeric for OAI</strong>
+							<span>Integration of EdgeRIC into the OAI 5G RAN to improve user throughput with RL and provide real-time fine-grain monitoring.</span>
+						</div>
+						<div class="timeline-item">
+							<strong>Cloud-native 5G with LLMs</strong>
+							<span>Master’s thesis work building a Kubernetes-based 5G network and using GPT models for explanations, configuration correction, and chatbot assistance.</span>
+						</div>
+					</div>
+				</section>
+
+				<section class="panel section" id="publications">
+					<h2>Publications</h2>
+					<p>
+						Your full publication list lives on Google Scholar, but these are the strongest homepage highlights from the CV and lab publication pages.
+					</p>
+					<div class="grid-2">
+						<div class="card">
+							<h3>Log Pruning for Efficient Q&A in 5G Networks</h3>
+							<p>PRISM, presented at the 2nd ACM Workshop on Open & AI RAN at ACM MobiCom 2025.</p>
+						</div>
+						<div class="card">
+							<h3>Tiny-Twin: A CPU-Native Full-stack Digital Twin for NextG Cellular Networks</h3>
+							<p>Presented at IEEE DySPAN 2026 as a CPU-native digital twin for full-stack NextG simulation.</p>
+						</div>
+						<div class="card">
+							<h3>Google Scholar</h3>
+							<p>Use the Scholar profile for the complete publication list, citation metrics, and cross-referenced work history.</p>
+						</div>
+						<div class="card">
+							<h3>Selected talks</h3>
+							<p>Tiny-Twin at the OpenAirInterface workshop and Log Pruning for Efficient Q&A in 5G Networks at the MobiCom OpenAI workshop.</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="panel section" id="talks">
+					<h2>Talks and Writing</h2>
+					<div class="grid-2">
+						<div class="card">
+							<h3>OpenAirInterface Workshop</h3>
+							<p>Tiny-Twin: A CPU-Native Full-stack Digital Twin for 5G.</p>
+						</div>
+						<div class="card">
+							<h3>MobiCom OpenAI Workshop</h3>
+							<p>Log Pruning for Efficient Q&A in 5G Networks.</p>
+						</div>
+						<div class="card">
+							<h3>6G Summit Abu Dhabi</h3>
+							<p>5G Network Automation Using LLM Models and RAG.</p>
+						</div>
+						<div class="card">
+							<h3>ICMLCN and Ericsson AI/ML/6G Weekly</h3>
+							<p>Talks on LLMs for 5G network management and automation.</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="panel section" id="contact">
+					<h2>Contact</h2>
+					<p>
+						Use these links for direct contact, the CV PDF, and your academic profile.
+					</p>
+					<div class="contact-row">
+						<a class="button primary" href="mailto:amamaghani@ucsd.edu">Email me</a>
+						<a class="button secondary" href="MamaghaniAli.pdf" target="_blank" rel="noreferrer">Download CV</a>
+						<a class="button secondary" href="https://scholar.google.com/citations?user=aAP3asAAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
+						<a class="button secondary" href="https://www.linkedin.com/in/ali-mamaghani/" target="_blank" rel="noreferrer">LinkedIn</a>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="footer-note">Built as a single-file static site. Update the placeholders and deploy to GitHub Pages.</div>
+		</footer>
+	</div>
+</body>
+</html>
