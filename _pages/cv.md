@@ -15,7 +15,7 @@ Education
 University of California, San Diego, 2024-Present  
 Advisor: Prof. Dinesh Bharadia   
 * **M.S. in Electrical Engineering (Communication Systems)**  
-Sharif University of Technology, Tehran, 2022-Present  
+Sharif University of Technology, Tehran, 2022-2024  
 * **B.S. in Electrical Engineering (Communication Systems)**  
 Sharif University of Technology, Tehran, 2018-2022  
 * **Mathematics and Physics Diploma**  
@@ -67,10 +67,7 @@ Selected Publications
 For a complete list, visit [Google Scholar](https://scholar.google.com/citations?user=aAP3asAAAAAJ&hl=en&view_op=list_works)  
 * A. Mamaghani, Q. Zheng, U. Ghosh, V. Rajagopalan, S. Shakkottai, & D. Bharadia, "Log Pruning for Efficient Q&A in 5G Networks", 2025, ACM Open-AI RAN Workshop, ACM MobiCom 2025, Hong Kong.
 * A. Mamaghani, U. Ghosh, I. K. Jain, S. Shakkottai, & D. Bharadia, "Tiny-Twin: A CPU-Native Full-stack Digital Twin for NextG Cellular Networks", 2026, IEEE DySPAN.
-* U. Ghosh, A. Chiejina, N. Stephenson, V. Shah, S. Shakkottai, & D. Bharadia, "SPARC: Spatio-Temporal Adaptive Resource Control for Multi-site Spectrum Management in NextG Cellular Networks", 2024, ACM CoNEXT.
-* A. Bura, U. Ghosh, S. Shakkottai, & D. Bharadia, "Windex: Realtime Neural Whittle Indexing for Scalable Service Guarantees in NextG Cellular Networks", under review.
 * W. H. Ko, U. Ghosh, U. Dinesha, R. Wu, S. Shakkottai, & D. Bharadia, "EdgeRIC: Empowering Realtime Intelligent Optimization and Control in NextG Networks", 2024, USENIX NSDI.
-* A. Rahman, U. Ghosh, A. Chandra, A. Prokes, "Channel Modeling for 60GHz mmWave Communication Inside Bus", IEEE VNC 2018.
 
 
 
