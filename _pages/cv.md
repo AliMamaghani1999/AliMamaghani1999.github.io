@@ -89,7 +89,7 @@ For a complete list, visit [Google Scholar](https://scholar.google.com/citations
 Scholarships
 ============
 * UC San Diego Fellowship Winner, Feb. 2024  
-* Ranked 2nd among Electrical Engineering - Communication Systems master's students, Nov. 2023  
+* Ranked 2nd among Electrical Engineering communication systems master's students, Nov. 2023  
 * Ranked 5th among 176 Electrical Engineering students, 2019-2022  
 * Nominated for Best BSc project awards, Apr. 2022  
 * Direct admission for MSc from Sharif University of Technology, Feb. 2022  
@@ -104,7 +104,7 @@ Service and leadership
 * Artifact Evaluation Committee, ACM CoNEXT'25, ACM Sigcomm 
 * Artifact Evaluation Committee, ACM CoNEXT'24, ACM Sigcomm  
 * Board Member, ECE Graduate Student Council (ECE GSC), UCSD, 2023-2025  
-* Teaching Assistant, Digital Signal Processing Design Lab, Fall '20, Winter '21, UCLA  
-* Teaching Assistant, Principles of Feedback Control, Spring '21, UCLA  
-* Treasurer, Indian Society of Technical Education, Students' Chapter, NIT Durgapur  
-* Core Committee Member and Convenor, IEEE Students' Branch, NIT Durgapur  
+* Teaching Assistant, Digital Signal Processing Design Lab, Fall '20, Winter '21  
+* Teaching Assistant, Principles of Feedback Control, Spring '21  
+* Treasurer, Indian Society of Technical Education, Students' Chapter  
+* Core Committee Member and Convenor, IEEE Students' Branch  

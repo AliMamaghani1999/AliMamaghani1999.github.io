@@ -14,7 +14,7 @@ I am a Ph.D. student in the Electrical and Computer Engineering department at **
 
 My work sits at the intersection of **communication networks, machine learning, optimization, and wireless systems**. I build systems for next-generation cellular networks, with a current focus on **telecom log analysis, AI-assisted network management, and low-latency control**.
 
-I completed my B.Tech in Electrical and Communication Engineering at the National Institute of Technology, Durgapur (**NITD**), and my M.S. in Electrical and Computer Engineering at the University of California, Los Angeles (**UCLA**). Before starting my doctoral studies, I worked at Qualcomm in San Diego on 5G NR protocol optimizations.
+My background includes a M.S. and B.S. in Electrical Engineering from Sharif University of Technology in Tehran. Before starting my doctoral studies, I worked at Qualcomm in San Diego on 5G NR protocol optimizations.
 
 Research Overview
 ======
