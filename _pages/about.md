@@ -14,7 +14,7 @@ I am a Ph.D. student in the Electrical and Computer Engineering department at **
 
 My work sits at the intersection of **communication networks, machine learning, optimization, and wireless systems**. I build systems for next-generation cellular networks, with a current focus on **telecom log analysis, AI-assisted network management, and low-latency control**.
 
-My background includes a M.S. and B.S. in Electrical Engineering from Sharif University of Technology in Tehran. Before starting my doctoral studies, I worked at Qualcomm in San Diego on 5G NR protocol optimizations.
+My background includes an M.S. and B.S. in Electrical Engineering (Communication Systems) from Sharif University of Technology in Tehran, where my research spanned cloud-native 5G platforms, O-RAN, and applying LLMs to network management.
 
 Research Overview
 ======

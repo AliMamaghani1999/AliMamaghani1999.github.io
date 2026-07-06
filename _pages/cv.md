@@ -21,19 +21,23 @@ Sharif University of Technology, Tehran, 2018-2022
 * **Mathematics and Physics Diploma**  
 Allameh Helli High School, Tehran, 2014-2018
 
-Work experience
+Research Experience
 ======
-* **HPE Labs, Milpitas**, June 2025 - Sept. 2025  
-  * **Research Associate Intern, Networking and Distributed Systems (NDSL) Lab**  
-  * QoE-driven networking for multi-user multimedia applications  
+* **Question Answering over Telecom Log Systems**, Jan. 2025 - Present  
+  * Advisor: Prof. Dinesh Bharadia, UC San Diego  
+  * Proposed PRISM, a two-stage framework combining causal–semantic log pruning and LLM-based reasoning for interpretable 5G system analysis, validated on over-the-air srsRAN testbeds.  
 
-* **Qualcomm, Inc., San Diego**, Sept. 2021 - Aug. 2022  
-  * **Engineer, WR&D**  
-  * Wireless link latency optimization on 5G NR protocols and analysis of PHY, MAC, protocol, and application-level performance  
+* **EdgeRIC for OAI**, Sep. 2024 - Jan. 2025  
+  * Advisor: Prof. Dinesh Bharadia, UC San Diego  
+  * Integrated EdgeRIC (a real-time radio intelligence controller) into the OAI 5G RAN, using RL to improve user throughput with fine-grained real-time UE monitoring for application-aware RAN optimization.  
 
-* **InterDigital, Inc., New York City**, June 2020 - Sept. 2020  
-  * **Wireless Research Intern**  
-  * Simulation-based study on Coordinated Multi-AP transmission technologies for IEEE 802.11be WLAN standard
+* **Applications of LLMs in a Cloud-Native 5G Platform** (Master's Thesis), Apr. 2023 - Aug. 2024  
+  * Advisors: Prof. Hosseinkhalaj and Prof. Nikaein (Eurecom)  
+  * Built a Kubernetes-based 5G network with OAI and integrated LLMs (GPT-3.5-turbo) for test/error explanation, configuration correction in a feedback loop, and an assistant chatbot.  
+
+* **Implementation of 4G and 5G Mobile Networks with a Centralized Controller** (Bachelor's Thesis), Aug. 2021 - Jun. 2022  
+  * Advisor: Prof. Hosseinkhalaj  
+  * Implemented 4G and 5G (SA/NSA) networks with O-RAN RIC and slicing xApps using OAI, FlexRAN/RIC (Mosaic5G), and Open5GS.
 
 Research Interests
 ======
@@ -96,15 +100,20 @@ Scholarships
 * Silver Medal in the 31st National Physics Olympiad, 2017  
 * Silver Medal in Iran's National IMC, 2013  
 
+Teaching Experience
+============
+* Teaching Assistant, Probability and Statistics (Prof. Ashtiani), Fall 2023  
+* Teaching Assistant, Data Networks (Prof. Pakravan), Fall 2022 & Spring 2022  
+* Teaching Assistant, Random Processes (Prof. Behnia), Spring 2022  
+* Teaching Assistant, Discrete-time Signal Processing (Prof. Shamsollahi), Fall 2021  
+* Teaching Assistant, Circuits Theory (Prof. Shamsollahi), Fall 2020  
+* Teaching Assistant, Electromagnetics (Prof. Memarian), Spring 2020  
+
 Service and leadership
 ============
-* Board Member, Women in ECE (WeCE), UCSD, 2025-2026
-* Artifact Evaluation Committee, ACM Sigcomm'25, ACM Sigcomm 
-* Artifact Evaluation Committee, NSDI'25, USENIX Association 
-* Artifact Evaluation Committee, ACM CoNEXT'25, ACM Sigcomm 
-* Artifact Evaluation Committee, ACM CoNEXT'24, ACM Sigcomm  
-* Board Member, ECE Graduate Student Council (ECE GSC), UCSD, 2023-2025  
-* Teaching Assistant, Digital Signal Processing Design Lab, Fall '20, Winter '21  
-* Teaching Assistant, Principles of Feedback Control, Spring '21  
-* Treasurer, Indian Society of Technical Education, Students' Chapter  
-* Core Committee Member and Convenor, IEEE Students' Branch  
+* Board Member, Women in ECE (WeCE), UCSD, 2025-2026  
+* Artifact Evaluation Committee, ACM SIGCOMM '25  
+* Artifact Evaluation Committee, USENIX NSDI '25  
+* Artifact Evaluation Committee, ACM CoNEXT '25  
+* Artifact Evaluation Committee, ACM CoNEXT '24  
+* Board Member, ECE Graduate Student Council (ECE GSC), UCSD  
