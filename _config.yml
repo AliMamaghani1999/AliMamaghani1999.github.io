@@ -20,7 +20,7 @@ repository               : "AliMamaghani1999/AliMamaghani1999.github.io" # Your 
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Ali Mamaghani"
   pronouns         : # example: "she/her"  
   bio              : "PhD student, Electrical and Computer Engineering, University of California San Diego"
