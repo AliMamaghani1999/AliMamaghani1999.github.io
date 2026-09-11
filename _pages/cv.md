@@ -32,7 +32,7 @@ Communication Networks, Large Language Models, Machine Learning, Reinforcement L
 Research Experience
 ======
 * **Question Answering over Telecom Log Systems**, Jan. 2025 – Present  
-  * Advisor: Prof. Dinesh Bharadia, UC San Diego  
+  * Advisors: Prof. Dinesh Bharadia (UC San Diego) and Prof. Srinivas Shakkottai (Texas A&M)  
   * Proposed PRISM, a two-stage framework combining causal–semantic log pruning and LLM-based reasoning for interpretable 5G system analysis; validated on over-the-air srsRAN testbeds with a multi-scenario 5G log dataset.  
 
 * **Benchmarking LLM Software-Engineering Agents on Telecom Codebases**, 2026  
@@ -40,11 +40,11 @@ Research Experience
   * Built TeleSWEBench, the first commit-driven benchmark measuring how well automated software-engineering agents navigate and modify rigorous wireless stacks such as srsRAN 5G, and TeleJudge, a hierarchical LLM-as-a-Judge evaluation framework.  
 
 * **Tiny-Twin: CPU-Native Full-Stack Digital Twin for NextG**, Jan. 2025 – Present  
-  * Advisor: Prof. Dinesh Bharadia, UC San Diego  
+  * Advisors: Prof. Dinesh Bharadia (UC San Diego), Prof. Srinivas Shakkottai (Texas A&M), and Dr. Ish Jain (UC San Diego)  
   * Built a CPU-native, full-stack digital twin of NextG cellular networks enabling reproducible, hardware-free experimentation and large-scale evaluation of RAN algorithms.  
 
 * **EdgeRIC for OAI**, Sep. 2024 – Jan. 2025  
-  * Advisor: Prof. Dinesh Bharadia, UC San Diego  
+  * Advisors: Prof. Dinesh Bharadia (UC San Diego) and Prof. Srinivas Shakkottai (Texas A&M)  
   * Integrated EdgeRIC (a real-time radio intelligence controller) into the OAI 5G RAN, using RL to improve user throughput with fine-grained real-time UE monitoring for application-aware RAN optimization.  
 
 * **Applications of LLMs in a Cloud-Native 5G Platform** (Master's Thesis), Apr. 2023 – Aug. 2024  
