@@ -40,7 +40,7 @@ Research Experience
   * Built TeleSWEBench, the first commit-driven benchmark measuring how well automated software-engineering agents navigate and modify rigorous wireless stacks such as srsRAN 5G, and TeleJudge, a hierarchical LLM-as-a-Judge evaluation framework.  
 
 * **Tiny-Twin: CPU-Native Full-Stack Digital Twin for NextG**, Jan. 2025 – Present  
-  * Advisors: Prof. Dinesh Bharadia (UC San Diego), Prof. Srinivas Shakkottai (Texas A&M), and Dr. Ish Jain (UC San Diego)  
+  * Advisors: Prof. Dinesh Bharadia (UC San Diego), Prof. Srinivas Shakkottai (Texas A&M), and Prof. Ish Jain (RPI)  
   * Built a CPU-native, full-stack digital twin of NextG cellular networks enabling reproducible, hardware-free experimentation and large-scale evaluation of RAN algorithms.  
 
 * **EdgeRIC for OAI**, Sep. 2024 – Jan. 2025  
