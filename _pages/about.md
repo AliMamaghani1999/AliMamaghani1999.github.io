@@ -14,7 +14,7 @@ I am a Ph.D. student in the Electrical and Computer Engineering department at **
 
 My work sits at the intersection of **communication networks, large language models, and machine learning**. I build systems and agents for next-generation cellular networks, with a current focus on **telecom log analysis, LLM agents for network management, and software-engineering agents for wireless stacks**.
 
-My background includes an M.S. and B.S. in Electrical Engineering (Communication Systems) from Sharif University of Technology in Tehran, where my research spanned cloud-native 5G platforms, O-RAN, and applying LLMs to network management.
+My background includes an M.S. and B.S. in Electrical Engineering (Communication Systems) from Sharif University of Technology in Tehran, where I worked with **Prof. Babak Hossein Khalaj** and **Prof. Navid Nikaein** (EURECOM) on cloud-native 5G platforms, O-RAN, and applying LLMs to network management.
 
 Research Overview
 ======
