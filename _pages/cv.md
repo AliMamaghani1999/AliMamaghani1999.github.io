@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-[Download my full CV (PDF)](/MamaghaniAli.pdf)
-
 Education
 ======
 * **Ph.D. in Electrical and Computer Engineering**  
