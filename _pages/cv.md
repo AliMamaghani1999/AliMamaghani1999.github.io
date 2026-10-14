@@ -69,6 +69,7 @@ Honors and Awards
 ======
 * NSF Student Travel Grant, IEEE DySPAN, 2026  
 * NSF POSE Travel Grant, Open6G+AI School, 2026  
+* IEEE Eta Kappa Nu (IEEE-HKN) Honor Society, UC San Diego, 2026 — awarded to the top students in the graduate program  
 * Graduate Fellowship, UC San Diego, 2024  
 * Ranked 2nd among Electrical Engineering (Communication Systems) master's students, 2023  
 * Ranked 5th among 176 Electrical Engineering students, 2019–2022  
