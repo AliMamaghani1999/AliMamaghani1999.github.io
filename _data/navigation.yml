@@ -20,6 +20,9 @@ main:
   - title: "Talks"
     url: /talks/
 
+  - title: "Media"
+    url: /media/
+
   # - title: "Lab Website"
   #   url: "https://wcsng.ucsd.edu"      
 

@@ -19,7 +19,7 @@ My background includes an M.S. and B.S. in Electrical Engineering (Communication
 Research Overview
 ======
 
-My research spans **wireless communication, networked systems, AI/ML, optimization, and reinforcement learning**. I am especially interested in building application-aware and edge-native 5G architectures that can reason over logs, adapt to changing network conditions, and support intelligent control. Recent work includes PRISM for telecom log question answering, EdgeRIC for real-time network optimization, and cloud-native 5G systems that integrate LLMs into the control loop.
+My research spans **wireless communication, networked systems, AI/ML, optimization, and reinforcement learning**. I am especially interested in building application-aware and edge-native 5G architectures that can reason over logs, adapt to changing network conditions, and support intelligent control. Recent work includes LENS for telecom log question answering and analytics, Tiny-Twin for hardware-free full-stack experimentation, EdgeRIC for real-time network optimization, and cloud-native 5G systems that integrate LLMs into the control loop.
 
 You can find my full CV [here](/cv/) and my publication record on [Google Scholar](https://scholar.google.com/citations?user=aAP3asAAAAAJ&hl=en&view_op=list_works).
 

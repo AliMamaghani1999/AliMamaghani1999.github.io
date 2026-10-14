@@ -31,7 +31,7 @@ Research Experience
 ======
 * **Question Answering over Telecom Log Systems**, Jan. 2025 – Present  
   * Advisors: Prof. Dinesh Bharadia (UC San Diego) and Prof. Srinivas Shakkottai (Texas A&M)  
-  * Proposed PRISM, a two-stage framework combining causal–semantic log pruning and LLM-based reasoning for interpretable 5G system analysis; validated on over-the-air srsRAN testbeds with a multi-scenario 5G log dataset.  
+  * Proposed LENS, a log-evidence-grounded neuro-symbolic agent for natural-language analytics over 5G traces: an offline pass decomposes raw logs into structured events in DuckDB and derives an empirical finite-state model of recurring transitions into a Trace Analytics Ontology, so that at query time the model synthesizes a structurally validated, query-specific analytics program executed as SQL — resolving the event pairing, identifier joins, grouping, and arithmetic that attention alone gets wrong, and keeping sensitive traces on operator-controlled near-edge infrastructure where smaller open-weight models can run.  
 
 * **Benchmarking LLM Software-Engineering Agents on Telecom Codebases**, 2026  
   * Collaborators: Prof. Vijay K. Shah (NC State), Prof. Dinesh Bharadia  
@@ -59,7 +59,7 @@ For the full list, visit [Google Scholar](https://scholar.google.com/citations?u
 * A. Mamaghani, Q. Zheng, U. Ghosh, V. Rajagopalan, S. Shakkottai, et al., "Log Pruning for Efficient Q&A in 5G Networks," Proc. 2nd ACM Workshop on Open and AI RAN, pp. 36–42, 2025.  
 * O. Kamatani, S. Saruwatari, S. Seshasayee, A. Mamaghani, D. Bharadia, "LLM-5GMAC: Performance Optimization in O-RAN Split 7.2 Using LLM-Based MAC-Layer Log Analysis," Proc. 2nd ACM Workshop on Open and AI RAN, pp. 1–7, 2025.  
 * Q. Zheng, U. Ghosh, A. Mamaghani, S. Shakkottai, D. Bharadia, "PHOENIX: Protocol State Machine Recovery from Events in 5G Logs," Proc. 16th ACM Workshop on Wireless of the Students, by the Students, and for the Students (S3), 2025.  
-* P. Gajjar, A. Mamaghani, D. Bharadia, V. K. Shah, "TeleSWEBench: A Commit-Driven Benchmark for Evaluating LLM-Powered Software Engineering in Telecommunications," arXiv:2606.05001, 2026.  
+* P. Gajjar, A. Mamaghani, D. Bharadia, V. K. Shah, "TeleSWEBench: A Commit-Driven Benchmark for Evaluating LLM-Powered Software Engineering in Telecommunications," Proc. Annual Conf. of the Asia-Pacific Chapter of the Assoc. for Computational Linguistics (AACL-IJCNLP), Main Conference, 2026.  
 * A. Mamaghani, U. Ghosh, S. Shakkottai, D. Bharadia, I. K. Jain, "Tiny-Twin: A CPU-Native Full-stack Digital Twin for NextG Cellular Networks," IEEE Int. Symp. on Spectrum Innovation (DySPAN), pp. 1–8, 2026.  
 * A. Mamaghani, U. Ghosh, S. Shakkottai, D. Bharadia, I. K. Jain, "Demo: Tiny-Twin – A CPU-Native Full-Stack Digital Twin for NextG Cellular Networks," IEEE Int. Symp. on Spectrum Innovation (DySPAN), 2026.  
 * A. Mamaghani, A. Nourian, N. Mohtaram, A. Shokrani, S. M. Nasiri, et al., "LLM for 5G: Network Management," IEEE Int. Conf. on Machine Learning for Communication and Networking (ICMLCN), 2024.  
@@ -77,13 +77,19 @@ Honors and Awards
 * Silver Medal, 31st National Physics Olympiad, Iran, 2017  
 * Silver Medal, International Mathematics Competition (IMC), Iran National Round, 2013
 
+Media Coverage
+======
+* **UC San Diego Today**, May 2026 — “UC San Diego Team Launches Free ‘Digital Twin’ for End-to-End Testing of Applications over Wireless,” a feature on Tiny-Twin, covered ahead of its IEEE DySPAN presentation. [Read the article](https://today.ucsd.edu/story/uc-san-diego-team-launches-free-digital-twin-for-end-to-end-testing-of-applications-over-wireless)
+
 Professional Service
 ======
+* Area Chair, ACM TheWebConf (WWW), Long Papers, 2027  
+* Reviewer, IEEE ICASSP, 2027  
 * Reviewer, IEEE Transactions on Computers, 2026  
 * TPC Member and Reviewer, ACM S3 Workshop (co-located with ACM MobiCom), 2026  
 * Reviewer, IEEE Transactions on Dependable and Secure Computing, 2026  
+* Reviewer, IEEE Access, 2026  
 * Reviewer, IEEE Future Networks World Forum, 2026  
-* Reviewer, JMIR Formative Research, 2026  
 * Student Volunteer, IEEE DySPAN, 2026  
 * Student Volunteer, ACL (Annual Meeting of the Association for Computational Linguistics), 2026
 
